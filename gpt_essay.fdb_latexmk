@@ -1,13 +1,13 @@
 # Fdb version 4
 ["bibtex gpt_essay"] 0 "gpt_essay.aux" "gpt_essay.bbl" "gpt_essay" 0 -1
-  "gpt_essay.aux" 1681598800 802 703e79ac2d8d220e9bd0aeaf4877828d "pdflatex"
-  "references.bib" 0 -1 0 ""
+  "./references.bib" 1681756074 2066 5f7d04790643a2b551c8bb4a5831da3f ""
+  "gpt_essay.aux" 1681757811 830 e5d10c0448ad0aa3d9b0c54ece29102d "pdflatex"
   (generated)
   "gpt_essay.bbl"
   "gpt_essay.blg"
   (rewritten before read)
-["pdflatex"] 1681598799 "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" "gpt_essay.pdf" "gpt_essay" 1681598800 2
-  "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" 1681598799 1798 25ab3d7b056bc5362f1753a555fc2eef ""
+["pdflatex"] 1681757810 "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" "gpt_essay.pdf" "gpt_essay" 1681757811 2
+  "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" 1681757810 4780 fe2869ed5911c04ee0043093e169da0c ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1678549815 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -52,6 +52,10 @@
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/auxhook/auxhook.sty" 1678549815 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1678549815 3052 30236f0cc243a8651b82240dfd2e8b9d ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1678549815 2462 8ce5f9a9c63002f2c1af03c262cf29af ""
+  "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1678549815 7068 06f8d141725d114847527a66439066b6 ""
+  "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/csquotes/csquotes.def" 1678549815 21994 2bc2a882df92d97dbce35c06bb1d3541 ""
+  "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/csquotes/csquotes.sty" 1678549815 62761 3c92d495a9e03d7254b9a3266aa17164 ""
+  "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1678549815 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics/keyval.sty" 1678549815 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/hycolor/hycolor.sty" 1678549815 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/hyperref/hpdftex.def" 1678549815 48272 99ede602a8ace626d8ed02f058a4bf8e ""
@@ -70,10 +74,10 @@
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/url/url.sty" 1678549815 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884046 7da7ec43723541b1080dc65bd2841593 ""
-  "gpt_essay.aux" 1681598800 802 703e79ac2d8d220e9bd0aeaf4877828d "pdflatex"
+  "gpt_essay.aux" 1681757811 830 e5d10c0448ad0aa3d9b0c54ece29102d "pdflatex"
   "gpt_essay.bbl" 0 -1 0 "bibtex gpt_essay"
-  "gpt_essay.out" 1681598800 221 90640fdb4941d95fc1c5755d48591aea "pdflatex"
-  "gpt_essay.tex" 1681598799 1798 25ab3d7b056bc5362f1753a555fc2eef ""
+  "gpt_essay.out" 1681757811 221 90640fdb4941d95fc1c5755d48591aea "pdflatex"
+  "gpt_essay.tex" 1681757810 4780 fe2869ed5911c04ee0043093e169da0c ""
   "ieeeconf.cls" 1681544716 197436 33af3dd5069be3a823450cf46fa3facf ""
   (generated)
   "gpt_essay.aux"

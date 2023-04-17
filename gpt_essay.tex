@@ -6,9 +6,10 @@
 
 \usepackage{authblk}
 \usepackage{hyperref}
+\usepackage{csquotes}
 
 \title{\LARGE \bf
-Working Title
+Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenarios: A Case Study of History Lectures
 }
 \author[1]{Jose Navar}
 \author[2]{Brendon Burnett}
@@ -18,15 +19,24 @@ Working Title
 \begin{document}
     \maketitle
     \begin{abstract}
-    In this paper, we prompt ChatGPT in different ways to assess if the responses from ChatGPT are reliable, factual, and
-    unbiased. This would be extrapolated to see if ChatGPT could be reliably used in an academic setting such as a history lecture
-    without producing false or biased information. 
+        ChatGPT, a Large Language Model (LLM) developed by OpenAI, is based on the GPT architecture and demonstrates remarkable natural language understanding capabilities. Depending on the specific model variant (e.g., GPT-3.5 or GPT-4), ChatGPT can provide information derived from the vast array of data it has been trained on. However, due to its inability to access the web for real-time searches, ChatGPT's knowledge is constrained by the training data available up to its knowledge cutoff date. In this paper, we investigate the presence of biases in ChatGPT's responses and analyze their implications. Additionally, we seek to understand how these biases can be mitigated in real-world applications, using history lectures as a representative case study. Our goal is to offer insights into the effective use of ChatGPT as an educational tool and to promote a more accurate and unbiased understanding of the information it provides.
     \end{abstract}
 
     \section{Introduction}
-    The current education system often values memorization over conceptual understanding, rewarding those who can cram rather than those with a deep, long-term grasp of a subject. AI tools like GPT-4 can help educators interconnect subjects by quickly summarizing textbooks and open resources, facilitating a more personalized and streamlined approach to teaching. This can be particularly beneficial for students with disabilities and allows for more in-depth conversations with students as they use AI tools to identify their challenges. Inspired by a video by Fireship [1] our goal is to enable educators to use GPT-4 to develop modular and flexible education plans tailored to the specific needs of their students. While this approach can cater to most students, some groups may still require more personalized human interaction. As the printing press, libraries, and the internet/search-engines better proliferated the openness of academia, AI tools will only continue to do the same for us.
+    The current education system often values memorization over conceptual understanding, rewarding those who can cram rather than those with a deep, long-term grasp of a subject. AI tools like ChatGPT can help educators interconnect subjects by quickly summarizing textbooks and open resources, facilitating a more personalized and streamlined approach to teaching. This can be particularly beneficial for students with disabilities and allows for more in-depth conversations with students as they use AI tools to identify their challenges. Our goal is to enable educators to use ChatGPT to develop modular and flexible education plans tailored to the specific needs of their students. While this approach can cater to most students, some groups may still require more personalized human interaction. As the printing press, libraries, and the internet/search-engines better proliferated the openness of academia, AI tools will only continue to do the same for us.
 
     \subsection{What is AI?}
-    
-    \bibliography{references}
+    Although the term "AI" is subject to debate, various perspectives from political, scientific, and philosophical paradigms shape our understanding of intelligence. A broad definition of AI can be described as 
+    \enquote{computing systems capable of engaging in human-like processes, such as learning, adapting, synthesizing, self-correcting, and utilizing data for complex processing tasks}\cite{popenici2017}.
+    This definition, however, may not encompass all aspects of what humans typically perceive as "intelligence." Nonetheless, these computing systems demonstrate remarkable problem-solving capabilities within their specific design parameters and can achieve human-level or even super-human performance in their respective tasks.\par
+
+    While many applications and programs fit the aforementioned definition of AI, we often do not perceive them as such. Common technologies like search engines, map navigation systems, or personal assistants on our phones have become so deeply integrated into our lives that we no longer view them as AI, despite matching the definition's criteria. Even older machines, such as lace-making devices, can be considered intelligent as they outperform humans in both quantity and quality.
+
+    As we continue to develop AI tools and technologies, we aim to improve ourselves and our society. However, it is crucial to remain vigilant about who controls these technologies. Throughout history, machines and technology have sometimes been used to widen the socio-economic gap, reinforcing the power of the upper classes. The Industrial Revolution, for example, led to increased wealth but also created poor working conditions for lower-income laborers. Similarly, nuclear fission has been the source of devastating consequences, yet it also has the potential to provide sustainable energy and medical treatments.
+
+    As we embrace AI, we must scrutinize it thoroughly. AI systems, being man-made creations, can inadvertently incorporate biases and ideologies into their algorithms. In this era of rapid technological advancement, it is more important than ever to foster trust in one another and delve deeper into humanism, ensuring that we use AI responsibly and ethically for the betterment of all.
+
+    \
+
+    \bibliography{references.bib}
 \end{document}
