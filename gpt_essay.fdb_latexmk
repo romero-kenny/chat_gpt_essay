@@ -1,13 +1,13 @@
 # Fdb version 4
 ["bibtex gpt_essay"] 0 "gpt_essay.aux" "gpt_essay.bbl" "gpt_essay" 0 -1
-  "./references.bib" 1681826805 2432 3af602dbe03833bc8d218502847fc4cf ""
-  "gpt_essay.aux" 1681829730 2456 9c5b255bb29ae52057637036ae37b3ed "pdflatex"
+  "./references.bib" 1681831087 2432 3af602dbe03833bc8d218502847fc4cf ""
+  "gpt_essay.aux" 1681831088 2456 9c5b255bb29ae52057637036ae37b3ed "pdflatex"
   (generated)
   "gpt_essay.bbl"
   "gpt_essay.blg"
   (rewritten before read)
-["pdflatex"] 1681829729 "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" "gpt_essay.pdf" "gpt_essay" 1681829730 2
-  "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" 1681829728 8298 1a963ea71ddc3db1351b30fff12c3829 ""
+["pdflatex"] 1681831088 "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" "gpt_essay.pdf" "gpt_essay" 1681831089 2
+  "/Users/kenny/ken_drive/code_projects/latex_files/chat_gpt_essay/gpt_essay.tex" 1681831087 8298 1a963ea71ddc3db1351b30fff12c3829 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1678549815 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -85,12 +85,12 @@
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/url/url.sty" 1678549815 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884046 7da7ec43723541b1080dc65bd2841593 ""
-  "gpt_essay.aux" 1681829730 2456 9c5b255bb29ae52057637036ae37b3ed "pdflatex"
+  "gpt_essay.aux" 1681831088 2456 9c5b255bb29ae52057637036ae37b3ed "pdflatex"
   "gpt_essay.bbl" 0 -1 0 "bibtex gpt_essay"
-  "gpt_essay.out" 1681829730 769 06bf77cf23b51a4c516b3f7c4040bace "pdflatex"
-  "gpt_essay.tex" 1681829728 8298 1a963ea71ddc3db1351b30fff12c3829 ""
+  "gpt_essay.out" 1681831088 769 06bf77cf23b51a4c516b3f7c4040bace "pdflatex"
+  "gpt_essay.tex" 1681831087 8298 1a963ea71ddc3db1351b30fff12c3829 ""
   "ieeeconf.cls" 1681544716 197436 33af3dd5069be3a823450cf46fa3facf ""
-  "images/math_explanation.png" 1681829157 368432 e2ca48e0a2826da3b1c9e593f7f42eed ""
+  "images/math_explanation.png" 1681831087 368432 e2ca48e0a2826da3b1c9e593f7f42eed ""
   (generated)
   "gpt_essay.aux"
   "gpt_essay.log"
