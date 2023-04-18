@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  17 APR 2023 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  18 APR 2023 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -243,7 +243,22 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
  (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
+)) (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
  (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -253,38 +268,140 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./gpt_essay.aux)
 \openout1 = `gpt_essay.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-Package hyperref Info: Link coloring OFF on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+Package hyperref Info: Link coloring OFF on input line 20.
 \@outlinefile=\write3
 \openout3 = `gpt_essay.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 21.
+ (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen157
+\scratchbox=\box53
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen158
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks20
+) (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 21.
+(Font)              <11> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 21.
+(Font)              <7.69997> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 21.
+(Font)              <5.5> on input line 22.
 
 
-LaTeX Warning: Citation `popenici2017' on page 1 undefined on input line 30.
+LaTeX Warning: Citation `popenici2017' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation `bubeck2023sparks' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Citation `openai2023gpt4' on page 1 undefined on input line 41.
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 41--42
+[]\OT1/ptm/m/n/10 ChatGPT is an AI chat-bot ca-pa-ble of re-spond-ing
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 41--42
+\OT1/ptm/m/n/10 to prompts and re-call-ing past knowl-edge dur-ing a
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 41--42
+\OT1/ptm/m/n/10 con-ver-sa-tion, pro-vid-ing more con-text for its re-sponses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+LaTeX Warning: Citation `openai2023gpt4' on page 1 undefined on input line 45.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 47.
+
+Overfull \hbox (4.95251pt too wide) in paragraph at lines 47--59
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `tab:table1' on page 1 undefined on input line 62.
+
+
+LaTeX Warning: Citation `bubeck2023sparks' on page 1 undefined on input line 62.
+
+
+LaTeX Warning: Reference `fig:image1' on page 1 undefined on input line 62.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+[1{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<images/math_explanation.png, id=16, 1204.5pt x 799.98875pt>
+File: images/math_explanation.png Graphic file (type png)
+<use images/math_explanation.png>
+Package pdftex.def Info: images/math_explanation.png  used on input line 66.
+(pdftex.def)             Requested size: 252.94499pt x 167.99039pt.
+
+Overfull \hbox (7.22688pt too wide) in paragraph at lines 66--68
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `bubeck2023sparks' on page 2 undefined on input line 68.
+
+
+LaTeX Warning: Citation `bubeck2023sparks' on page 2 undefined on input line 68.
+
+
+LaTeX Warning: Citation `popenici2017' on page 2 undefined on input line 72.
+
+
+LaTeX Warning: Citation `miller2023' on page 2 undefined on input line 73.
+
+
+LaTeX Warning: Citation `popenici2017' on page 2 undefined on input line 75.
 
 No file gpt_essay.bbl.
 
@@ -298,12 +415,14 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[1{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
+[2
 
-
-] (./gpt_essay.aux)
+ <./images/math_explanation.png>] (./gpt_essay.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `gpt_essay.out' has changed.
@@ -312,21 +431,21 @@ Package rerunfilecheck Warning: File `gpt_essay.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `gpt_essay.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  90640FDB4941D95FC1C5755D48591AEA;221.
+(rerunfilecheck)             After:  06BF77CF23B51A4C516B3F7C4040BACE;769.
  ) 
 Here is how much of TeX's memory you used:
- 8876 strings out of 476025
- 145437 string characters out of 5780034
- 1869388 words of memory out of 5000000
- 29262 multiletter control sequences out of 15000+600000
- 547339 words of font info for 90 fonts, out of 8000000 for 9000
+ 9730 strings out of 476025
+ 158903 string characters out of 5780034
+ 1875388 words of memory out of 5000000
+ 30074 multiletter control sequences out of 15000+600000
+ 551081 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,76p,1063b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gpt_essay.pdf (1 page, 55971 bytes).
+Output written on gpt_essay.pdf (2 pages, 300737 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
