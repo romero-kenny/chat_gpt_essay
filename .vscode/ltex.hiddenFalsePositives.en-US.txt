@@ -1,1 +1,0 @@
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QExploring Biases in ChatGPT Responses and Its Application in Real-World Scenarios: A Case Study of History Lectures [1]Jose Navar [1]Brendon Burnett [1]Kenneth Romero [1]University of North Georgia\\E$"}
