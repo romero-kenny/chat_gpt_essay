@@ -76,6 +76,8 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
         
         It is essential to remember that AI systems, like computers, are man-made creations and not infallible. They can be flawed, producing unwanted, inaccurate, or incoherent outputs. Additionally, the vast amount of information available on the internet includes low-quality or incorrect data that can hinder an AI's understanding and performance. Without proper guidance and understanding of potential pitfalls, relying on AI can lead to unintended consequences.
 
+    \subsection{Experiments on the GPT Architecture}
+        
 
     \section{TRANSFORMER ARCHITECTURE}
 
@@ -141,7 +143,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     transformers. One such technique is called label smoothing, which involves adding a small amount of noise to the target labels
     during training to encourage the model to be less confident in its predictions. Another technique is called learning rate warm up,
     which involves gradually increasing the learning rate during the first few epochs of training to help the model converge more
-    quickly
+    quickly.
     
     
     \subsection{APPLICATIONS OF TRANSFORMER}
@@ -169,8 +171,6 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     \item Music Generation: Transformer models have also been used for music generation tasks, such as generating polyphonic
     music and harmonization. Examples of successful transformer-based models in music generation include Music
     Transformer and Transformer-based Harmonization.
-    
-    
     
     \end{itemize}
     
@@ -224,7 +224,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     \begin{quote}
     While the issue of states' rights was certainly a factor in the American Civil War, it was not the primary cause of the
     conflict. The South claimed that the federal government was encroaching on their states' rights to make their own laws
-    and govern themselves, particularly with regards to the issue of slavery. However, the South's primary concern was the
+    and govern themselves, particularly regarding the issue of slavery. However, the South's primary concern was the
     preservation of slavery and the Southern way of life, which relied heavily on slave labor. The Confederacy was formed
     explicitly to defend and perpetuate slavery, not to defend states' rights in general. Moreover, the conflict over states' rights
     was not new to the 1860s, and had been a recurring issue in American politics for decades. The South had long been
@@ -279,7 +279,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     ChatGPT briefly mentions one of Lee’s controversies, however ChatGPT does not vilify or condemn Lee in any way in this
     response making it fairly unbiased and accurate, mainly focusing on the objective information. Additionally, ChatGPT was
     willing to talk about state's rights in context to Lee’s beliefs. Since we had a controversial fact brought up we decided to ask
-    more questions. The question asked was, ”What were his controversies?“ and the following response was:
+    more questions. The question asked was, "What were his controversies?“ and the following response was:
     \begin{quote}
         
     Robert E. Lee's legacy is complex and controversial, and there are several issues that have been the subject of debate
@@ -320,11 +320,11 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     of causes, from the Civil Rights Movement to the struggle for independence in other countries. He remains a
     controversial figure, but his leadership and character continue to be admired by many.
     \end{quote}
-    The response is still fairly objective and balanced in regards to Lee’s life and career. While the response is somewhat positive
+    The response is still fairly objective and balanced regarding Lee’s life and career. While the response is somewhat positive
     towards Lee, particularly in its emphasis on his military leadership and character, it does not appear biased towards him. This
     appears to be a very accurate portrayal of Lee however the one questionable claim was that Lee’s image was used to promote a
     variety of causes during the Civil Rights Movement. So I proceeded to ask ChatGPT,” Explain how Robert E. Lee's image was
-    used in the civil right's movement and in other countries?” and it’s response was:
+    used in the civil right's movement and in other countries?” and its response was:
     \begin{quote}
         
     Robert E. Lee's image has been used in a variety of ways by different groups and causes over the years, including in the
@@ -360,23 +360,25 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     moral leadership and character in the struggle for civil rights was an important part of his message, and he drew on a
     wide range of examples to illustrate these qualities.
     \end{quote}
-    We were unable to find any examples of Martin Luthur King Jr. referencing Lee in such a way, so it seems that ChatGPT may have
+
+    We were unable to find any examples of Martin Luther King Jr. referencing Lee in such a way, so it seems that ChatGPT may have
     made a false claim, which was a significant strike against the accuracy and reliability of the information it provides.
     To test the accuracy of ChatGPT, we conducted a series of experiments on historical figures from the American Civil War. We
     found that the results generated by ChatGPT were consistently factually accurate across all tests. This demonstrates the model's
     ability to accurately comprehend and analyze historical information. These promising results highlight the potential of ChatGPT to
     assist researchers and historians in their work.
-       
-    
-    
     
     \section{CONCLUSIONS}
     
     In our experimentation, it became clear that ChatGPT is relatively stiff in its perspective. Different phrasing and putting on pressure didn’t do much to sway it from its baseline, at least as far as our chosen focus topic goes. Slavery was the main issue of the Civil War, and alternative perspectives are relegated to the descriptions of the beliefs of the figures involved in the conflict. ChatGPT is not conscious, it doesn’t have its own thoughts, feelings, or opinions, it can only regurgitate and remix the information it was trained on, which in its case was many scholarly resources from BookCorpus and meticulously maintained information sources like Wikipedia, all of which are designed to present information in a straightforward, academic way. While the tone of such resources will inevitably contain some amount of bias, ultimately the main thing is that they aren’t meant to be opinionated, and as such, not many strong opinions come through when talking with ChatGPT even when discussing something as contentious as the Civil War. It just wasn’t made for that.
-        This is an important takeaway, too. It’s not that ChatGPT isn’t capable of having bias or reflecting certain opinions more strongly than others, it’s that the dataset it was trained on and the transformers it utilizes weren’t made with that intention. This technology could easily be twisted to do just that. We’re already seeing companies begging to utilize this technology such as Bing, who recently implemented their own chat bot into their browser. In the future, many companies and groups could make their own chat bots trained on datasets that are less clinical in their responses. Microsoft could have their Bing chatbot push Microsoft products onto would-be consumers using their browser, political groups could implement training that is meant to reflect their beliefs and interests. This is all to say, our research was not meant to find if this technology could or couldn’t carry bias, just if ChatGPT does or doesn’t. The general danger is still there.
-        Similarly, the dataset ChatGPT was trained on does not lend it an especially “human” voice in its general responses. It’s capable of retaining and elaborating on the things it says, so it’s considerably superior to the chatbots of yore in that regard, but its responses still come off as very “dry” and “academic” more than the way someone might talk in casual conversation. It can be prompted to talk more casually, but it doesn’t by default, so it’s doubtful that anyone would be fooled into thinking they were talking to a person, which is furthered by its general lack of opinions, as discussed above. It’s not the easiest sort of thing to quantify, but that goes beyond the scope of this research.
-        While it may take on a generally academic tone due to its transformers and dataset, and while much of the information it gave us about the Civil War is factually accurate, it is not infallible. One claim it made particularly stuck out in all our prompting was that Martin Luthur King Jr., prominent figure of the Civil Rights movement, pointed to Robert E. Lee of all people as someone to look to as an example of leadership. This raised eyebrows, and when questioned further about it, ChatGPT contradicted itself and claimed it never happened. Further research into the claim never turned up any source that said King stated such a thing, so this seems to be a case where ChatGPT can produce false information. Izt may not have happened much, but once is more than enough to say it shouldn’t be relied on. While it falls outside the realm of our topic of prompting, it was also found that ChatGPT has trouble producing accurate information regarding subjects such as complex mathematics and computer science as well. After all, it doesn’t know more than what it was trained on.
-        ChatGPT is a remarkable tool, certainly something to herald in a new technological age of Artificial Intelligence, but it’s important to remember the risks and limitations of the technology as it stands, and to remain critical about the information it provides. While ChatGPT may not try to sway your perspectives and masquerade as a person, other chatbots may come along with more malicious intent in their design. Always be wary.
+
+    This is an important takeaway, too. It’s not that ChatGPT isn’t capable of having bias or reflecting certain opinions more strongly than others, it’s that the dataset it was trained on and the transformers it utilizes weren’t made with that intention. This technology could easily be twisted to do just that. We’re already seeing companies begging to utilize this technology such as Bing, who recently implemented their own chatbot into their browser. In the future, many companies and groups could make their own chatbots trained on datasets that are less clinical in their responses. Microsoft could have their Bing chatbot push Microsoft products onto would-be consumers using their browser, political groups could implement training that is meant to reflect their beliefs and interests. This is all to say, our research was not meant to find if this technology could or couldn’t carry bias, just if ChatGPT does or doesn’t. The general danger is still there.
+
+    Likewise, the dataset on which ChatGPT is trained does not inherently provide it with a particularly "human" voice for its general responses. Although it can remember and elaborate on its statements, outperforming earlier chatbots, its default responses often appear "dry" and "academic," lacking the casual tone of everyday conversation. While ChatGPT can be prompted to adopt a more informal style, its default mode is unlikely to deceive anyone into believing they are interacting with a human. This impersonal quality is further emphasized by its general lack of opinions, as previously mentioned. Quantifying this aspect is challenging and beyond the scope of our current research.
+
+    While it may take on a generally academic tone due to its transformers and dataset, and while much of the information it gave us about the Civil War is factually accurate, it is not infallible. One claim it made particularly stuck out in all our prompting was that Martin Luther King Jr., prominent figure of the Civil Rights movement, pointed to Robert E. Lee of all people as someone to look to as an example of leadership. This raised eyebrows, and when questioned further about it, ChatGPT contradicted itself and claimed it never happened. Further research into the claim never turned up any source that said King stated such a thing, so this seems to be a case where ChatGPT can produce false information. It may not have happened much, but once is more than enough to say it shouldn’t be relied on. While it falls outside the realm of our topic of prompting, it was also found that ChatGPT has trouble producing accurate information regarding subjects such as complex mathematics and computer science as well. After all, it doesn’t know more than what it was trained on.
+
+    ChatGPT is a remarkable tool, certainly something to herald in a new technological age of Artificial Intelligence, but it’s important to remember the risks and limitations of the technology as it stands, and to remain critical about the information it provides. While ChatGPT may not try to sway your perspectives and masquerade as a person, other chatbots may come along with more malicious intent in their design. Always be wary.
 
     \bibliographystyle{plain}
     \bibliography{references}
