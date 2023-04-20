@@ -174,7 +174,32 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
         Despite the impressive capabilities of AI, there are numerous challenges associated with its usage. Like GPT, AutoGPT relies on guessing whether its responses are correct or not. Although Natural Language Processing (NLP) can be fine-tuned, AI systems may not intuitively understand the desired outcome or align with human intentions. AIs have been known to devise unconventional solutions to complete tasks, leading to difficulty in controlling their actions. Consequently, human intervention and domain expertise are often necessary to ensure desired outcomes\cite{miles2022}.
         
         It is essential to remember that AI systems, like computers, are man-made creations and not infallible. They can be flawed, producing unwanted, inaccurate, or incoherent outputs. Additionally, the vast amount of information available on the internet includes low-quality or incorrect data that can hinder an AI's understanding and performance. Without proper guidance and understanding of potential pitfalls, relying on AI can lead to unintended consequences.
+<<<<<<< HEAD
+=======
+
+    \subsection{Experiments on the GPT Architecture}
+        Many experiments involving the GPT architecture focus on its potential for misuse. A notable example is Yannic Kilcher's creation of an offensively biased GPT model trained on 4Chan, a controversial social platform known for offensive and conspiratorial content. The model successfully mimicked user behaviors and language typical of the site, even commenting on its own posts and responding to others within the context of a thread\cite{kilcher2022}.
+
+        A significant flaw in the model was its occasional incoherence and irrelevance in comments, betraying its disguise as a genuine user. This specific use case highlights the potential harm that can arise from employing such models. Although ChatGPT and GPT-4 are general-purpose LLMs, they remain susceptible to similar issues as demonstrated by 4ChanGPT. Thus, it is crucial to implement safeguards against potential misuse or manipulation. GPT-4's inability to autocorrect its reasoning can also lead to unintentional misuse, as it relies on predicting the most probable outcome rather than confirming its accuracy. 
+>>>>>>> b7771cd (finished first two sections and added more figures)
         
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.45\textwidth]{images/gpt_probable_bias.png}
+            \caption{GPT-4's bias towards predicting the most probable outcome.}
+            \label{fig:image2} 
+        \end{figure}
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.45\textwidth]{images/truthfulness.png}
+            \caption{GPT-4's comparison of truthfulness compared to other LLMs and different prompting strategies.}
+            \label{fig:image3}
+        \end{figure}
+            
+        This inherent bias showcases how the model's lack of reasoning can cause it to become trapped in loops or hallucinations. Additional prompting may not always help, as the model might continuously believe it's correct without recognizing the specific error in its responses\cite{bubeck2023sparks}. While the model's understanding depends on the prompter's wording, it should ideally be able to comprehend different syntactical variations of a question semantically.
+        
+        If GPT-4 could access additional tools for better context or to verify its explanations, it might be better equipped to handle certain problems with increased accuracy\cite{bubeck2023sparks}. However, its critical reasoning remains poor, as it can only predict the next word instead of referring back to previous statements for self-correction. GPT-4 argues linearly, which leads to mistakes. A more in-depth understanding of this limitation can be achieved by examining the underlying technology of GPT.
 
     
     \section{EXPERIMENT}
