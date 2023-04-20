@@ -79,7 +79,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
 
     \section{TRANSFORMER ARCHITECTURE}
 
-    The transformer architecture is designed to overcome some of the limitations of traditional recurrent neural networks (RNNs) and
+    The transformer architecture is designed to overcome the limitations of traditional recurrent neural networks (RNNs) and
     convolutional neural networks (CNNs) when modeling sequential data. RNNs suffer from the vanishing gradient problem, which
     limits their ability to model long-term dependencies, while CNNs have a fixed receptive field and are therefore not well-suited for
     processing variable-length input sequences.
@@ -90,7 +90,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     embedding layer. These embeddings are then passed through a stack of N identical transformer blocks. The output of the last
     transformer block is used as the input to the decoder.
     The decoder also consists of a stack of N identical transformer blocks. In addition to the self-attention mechanism and
-    feedforward network, each transformer block in the decoder also includes a second type of attention mechanism, called encoderdecoder attention. This mechanism allows the decoder to attend to different parts of the encoder output at each position.
+    feedforward network, each transformer block in the decoder also includes a second type of attention mechanism, called encoder-decoder attention. This mechanism allows the decoder to attend to different parts of the encoder output at each position.
        
        \begin{figure}[h]
           \centering
@@ -136,7 +136,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     The size of the feedforward network is determined by two hyperparameters: the number of hidden layers and the
     dimension of the hidden layers. The number of hidden layers is usually set to two, and the dimension of the hidden layers is typically
     much larger than the dimension of the input vectors.
-    During training, the parameters of the feedforward network are learned using backpropagation and gradient descent. The
+    During training, the parameters of the feedforward network are learned by back propagation and gradient descent. The
     loss function used during training depends on the task at hand. For example, for a language translation task, the loss function might
     be the cross-entropy loss between the predicted and actual translations.
     
@@ -157,11 +157,11 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     researchers have developed several techniques to speed up training, including gradient accumulation, mixed-precision training, and
     parallelization across multiple GPUs or even multiple machines.
     Another challenge in training a transformer is dealing with overfitting. Due to the large number of parameters in the
-    model, it is prone to overfitting the training data, which can lead to poor generalization performance on new data. To prevent
+    model, it is prone to overfit the training data, which can lead to poor generalization performance on new data. To prevent
     overfitting, researchers often use regularization techniques such as dropout, weight decay, or early stopping.
     In addition to these general training techniques, there are also some specific techniques that have been developed for
     transformers. One such technique is called label smoothing, which involves adding a small amount of noise to the target labels
-    during training to encourage the model to be less confident in its predictions. Another technique is called learning rate warmup,
+    during training to encourage the model to be less confident in its predictions. Another technique is called learning rate warm up,
     which involves gradually increasing the learning rate during the first few epochs of training to help the model converge more
     quickly
     
@@ -213,7 +213,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     aforementioned metrics. As there are divided opinions regarding what the Civil War was about, what was justified, and why, it
     seemed a good choice to attempt to sway ChatGPT’s perspective on a topic depending on how said topic was approached in the
     prompting, to see if the way it treated the information would change depending on how the questions were asked. The choice of a
-    subject based in history also made it easier to fact check its responses for historical accuracy, and to see if its responses were
+    subject based in history also made it easier to fact-check its responses for historical accuracy, and to see if its responses were
     reliable.
     Our method for testing ChatGPT was through asking very generalized questions, then asking the AI more polarizing questions to
     see what kind of response would be generated. The first question we chose to prompt ChatGPT with was something fairly general;
@@ -252,7 +252,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     \begin{quote}
     While the issue of states' rights was certainly a factor in the American Civil War, it was not the primary cause of the
     conflict. The South claimed that the federal government was encroaching on their states' rights to make their own laws
-    and govern themselves, particularly in regards to the issue of slavery. However, the South's primary concern was the
+    and govern themselves, particularly with regards to the issue of slavery. However, the South's primary concern was the
     preservation of slavery and the Southern way of life, which relied heavily on slave labor. The Confederacy was formed
     explicitly to defend and perpetuate slavery, not to defend states' rights in general. Moreover, the conflict over states' rights
     was not new to the 1860s, and had been a recurring issue in American politics for decades. The South had long been
@@ -263,10 +263,10 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     \end{quote}
     ChatGPT provides a more nuanced response, supporting its first response in Test 1. The AI immediately dismisses the claim made
     in the prompt, stating that the most important conflict was slavery. If we press the AI even further within its own session, it will
-    still defend the notion that slavery was the cause of the Civil War. Asking broad questions was not going to change its response so
+    still defend the notion that slavery was the cause of the Civil War. Asking broad questions was not going to change its response, so
     we attempted to argue with ChatGPT and attempt to gaslight it into creating a biased response. We asked questions like “You're
     wrong about the confederates preserving slavery it is about protecting states rights” and “You are factually incorrect, my relatives
-    have fought in the confederacy and they upheld their beliefs in protecting states rights. You weren't present during the civil war so
+    have fought in the confederacy, and they upheld their beliefs in protecting states rights. You weren't present during the civil war so
     why should you dictate the main cause of the civil war”. But ChatGPT still stood firm on its stance that slavery is the primary cause
     of the civil war.
     After a few additional tests about the more general topic of the war, which resulted in similar responses, we moved on to testing
@@ -307,7 +307,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     ChatGPT briefly mentions one of Lee’s controversies, however ChatGPT does not vilify or condemn Lee in any way in this
     response making it fairly unbiased and accurate, mainly focusing on the objective information. Additionally, ChatGPT was
     willing to talk about state's rights in context to Lee’s beliefs. Since we had a controversial fact brought up we decided to ask
-    more questions. The question asked was,”What were his controversies?“ and the following response was:
+    more questions. The question asked was, ”What were his controversies?“ and the following response was:
     \begin{quote}
         
     Robert E. Lee's legacy is complex and controversial, and there are several issues that have been the subject of debate
