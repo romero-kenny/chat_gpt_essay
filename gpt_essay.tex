@@ -84,7 +84,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     The transformer architecture is designed to overcome the limitations of traditional recurrent neural networks (RNNs) and
     convolutional neural networks (CNNs) when modeling sequential data. RNNs suffer from the vanishing gradient problem, which
     limits their ability to model long-term dependencies, while CNNs have a fixed receptive field and are therefore not well-suited for
-    processing variable-length input sequences. \cite{vaswani2017}
+    processing variable-length input sequences.\cite{pascasnu2013}
     The transformer architecture addresses these limitations by using the self-attention mechanism in the transformer blocks.
     The self-attention mechanism allows the transformer to model long-range dependencies in the input sequence by attending to
     different parts of the input at each position.
@@ -92,7 +92,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     embedding layer. These embeddings are then passed through a stack of N identical transformer blocks. The output of the last
     transformer block is used as the input to the decoder.
     The decoder also consists of a stack of N identical transformer blocks. In addition to the self-attention mechanism and
-    feedforward network, each transformer block in the decoder also includes a second type of attention mechanism, called encoder-decoder attention. This mechanism allows the decoder to attend to different parts of the encoder output at each position.
+    feedforward network, each transformer block in the decoder also includes a second type of attention mechanism, called encoder-decoder attention. This mechanism allows the decoder to attend to different parts of the encoder output at each position.\cite{vaswani2017}
        
 
     
@@ -104,7 +104,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     The resulting weighted sum, or attention output, is then used as the input to the feedforward network. The query, key,
     and value vectors are learned during the training process.
     The self-attention mechanism allows the transformer to model long-range dependencies in the input sequence efficiently.
-    Additionally, it allows the transformer to focus on different parts of the input sequence depending on the task at hand.
+    Additionally, it allows the transformer to focus on different parts of the input sequence depending on the task at hand.\cite{vaswani2017}
     
 
     
@@ -114,7 +114,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     The feedforward network in a transformer block is a standard fully connected neural network, also known as a Multi-Layer
     Perceptron (MLP). It is composed of one or more hidden layers, each consisting of a set of neurons that compute a weighted sum
     of the input activations and apply a non-linear activation function to the result. The output of each hidden layer is then passed as
-    input to the next layer, until the final layer produces the output of the transformer block.
+    input to the next layer, until the final layer produces the output of the transformer block.\cite{vaswani2017}
     The feedforward network typically uses the Rectified Linear Unit (ReLU) activation function in each hidden layer, which
     applies the identity function to all positive inputs and maps all negative inputs to zero. This non-linearity helps the model capture
     complex patterns in the data.
@@ -123,7 +123,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     much larger than the dimension of the input vectors.
     During training, the parameters of the feedforward network are learned by back propagation and gradient descent. The
     loss function used during training depends on the task at hand. For example, for a language translation task, the loss function might
-    be the cross-entropy loss between the predicted and actual translations.
+    be the cross-entropy loss between the predicted and actual translations.\cite{vaswani2017}
     
 
     
@@ -143,7 +143,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
     transformers. One such technique is called label smoothing, which involves adding a small amount of noise to the target labels
     during training to encourage the model to be less confident in its predictions. Another technique is called learning rate warm up,
     which involves gradually increasing the learning rate during the first few epochs of training to help the model converge more
-    quickly.
+    quickly.\cite{vaswani2017}
     
     
     \subsection{APPLICATIONS OF TRANSFORMER}
