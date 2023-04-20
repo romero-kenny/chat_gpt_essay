@@ -47,10 +47,10 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
             \begin{tabular}{c|c}
                 Exam & GPT-4 scores\\
                 \hline
-                SAT Evidence-Based Reading and Writing & 710/800 (~93rd percentile)\\
+                SAT Reading and Writing & 710/800 (~93rd percentile)\\
                 AP Calculus BC & 4 (43rd - 59h percentile)\\
-                AP English Language and Composition & 2 (14th - 44th percentile)\\
-                AP English Literature and Composition & 2 (8th - 22nd)\\
+                AP English Lang and Comp & 2 (14th - 44th percentile)\\
+                AP English Lit and Comp & 2 (8th - 22nd)\\
                 Leetcode (easy) & 31/41 \\
                 Leetcode (hard) & 3/45 \\
                 \hline
@@ -59,7 +59,7 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
 
         \end{table}
 
-        As evident from \ref{tab:table1}, ChatGPT scores poorly on tests requiring deeper understanding and comprehension, such as AP Literature exams. Surprisingly, scores on Calculus BC exams are relatively high, which could be attributed to GPT-4's heuristics allowing for more effective recall of its knowledge base\cite{bubeck2023sparks}. However, ChatGPT can only "guess" if it's right, without providing a comprehensive explanation for its correctness, seen in \ref{fig:image1}.\newline 
+        As evident from Table \ref{tab:table1}, ChatGPT scores poorly on tests requiring deeper understanding and comprehension, such as AP Literature exams. Surprisingly, scores on Calculus BC exams are relatively high, which could be attributed to GPT-4's heuristics allowing for more effective recall of its knowledge base\cite{bubeck2023sparks}. However, ChatGPT can only "guess" if it's right, without providing a comprehensive explanation for its correctness, seen in Figure \ref{fig:image1}. 
 
    \begin{figure}
        \centering
@@ -72,9 +72,14 @@ Exploring Biases in ChatGPT Responses and Its Application in Real-World Scenario
         Given ChatGPT's limitations in reasoning, it is better suited as a search-engine-like tool, akin to a teacher's assistant (TA). At Georgia Tech, one of the best TAs for a master's program was an AI based on IBM's Watson \cite{popenici2017}. OpenAI CEO Sam Altman recently stated, 
         \enquote{[…] we're at the end of the era where it's gonna be these giant models, and we'll make them better in other ways}\cite{miller2023}, implying that more specialized LLMs are preferable for specific tasks, enabling certain sectors to benefit more than from a general AI. Exploring ChatGPT's potential for research and planning can enhance efficiency and workflow in various projects. IBM's Watson, for instance, already assists large corporations and has proven more accurate at diagnosing medical conditions than human doctors \cite{popenici2017}. With the specialization of AI to better suit the needs of either corporations or students in a master's program, one can dream if these AI systems can be interlocked/combined to create a more self-sufficient AI. Something more akin to a general intelligent being.
 
-   \subsection{A Quick Overview of AutoGPT}
+    \subsection{A Quick Overview of AutoGPT}
+        While this paper primarily focuses on ChatGPT and the GPT architecture, the concept of interconnecting AI APIs and different bots has led to the emergence of a "general" artificial intelligence. Similar to how ChatGPT may eventually access the web for additional context or information, AutoGPT operates comparably. The key distinction, however, is that AutoGPT requires only one initial prompt before self-generating additional prompts to complete a task.
+
+        Despite the impressive capabilities of AI, there are numerous challenges associated with its usage. Like GPT, AutoGPT relies on guessing whether its responses are correct or not. Although Natural Language Processing (NLP) can be fine-tuned, AI systems may not intuitively understand the desired outcome or align with human intentions. AIs have been known to devise unconventional solutions to complete tasks, leading to difficulty in controlling their actions. Consequently, human intervention and domain expertise are often necessary to ensure desired outcomes.
+        
+        It is essential to remember that AI systems, like computers, are man-made creations and not infallible. They can be flawed, producing unwanted, inaccurate, or incoherent outputs. Additionally, the vast amount of information available on the internet includes low-quality or incorrect data that can hinder an AI's understanding and performance. Without proper guidance and understanding of potential pitfalls, relying on AI can lead to unintended consequences.
 
 
-    
+    \bibliographystyle{plain}
     \bibliography{references.bib}
 \end{document}
